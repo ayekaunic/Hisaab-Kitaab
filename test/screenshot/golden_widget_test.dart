@@ -38,20 +38,6 @@ void main() {
     await screenMatchesGolden(tester, 'Settings');
   });
 
-  // home screen
-  // testGoldens('Home screen renders correctly.', (tester) async {
-  //   final widget = MaterialApp(
-  //     home: MyHomePage(),
-  //   );
-
-  //   await tester.pumpWidgetBuilder(
-  //     widget,
-  //     surfaceSize: const Size(500, 1000),
-  //   );
-
-  //   await screenMatchesGolden(tester, 'Home');
-  // });
-
   // sign up screen
   testGoldens('Sign up screen renders correctly.', (tester) async {
     final widget = MaterialApp(
@@ -79,20 +65,6 @@ void main() {
 
     await screenMatchesGolden(tester, 'Your account');
   });
-
-  // search screen
-  // testGoldens('Search screen renders correctly.', (tester) async {
-  //   final widget = MaterialApp(
-  //     home: SearchPage(key: UniqueKey()),
-  //   );
-
-  //   await tester.pumpWidgetBuilder(
-  //     widget,
-  //     surfaceSize: const Size(500, 1000),
-  //   );
-
-  //   await screenMatchesGolden(tester, 'Search');
-  // });
 
   // developer screen
   testGoldens('Developer screen renders correctly.', (tester) async {
@@ -130,18 +102,4 @@ void main() {
 
     await screenMatchesGolden(tester, 'Details');
   });
-
-  // change theme screen
-  // testGoldens('Change theme screen renders correctly.', (tester) async {
-  //   final widget = MaterialApp(
-  //     home: ChangeThemePage(key: UniqueKey()),
-  //   );
-
-  //   await tester.pumpWidgetBuilder(
-  //     widget,
-  //     surfaceSize: const Size(500, 1000),
-  //   );
-
-  //   await screenMatchesGolden(tester, 'Change theme');
-  // });
 }

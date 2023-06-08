@@ -1,10 +1,6 @@
-// import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-// import 'package:likk_picker/likk_picker.dart';
-// import 'package:path_provider/path_provider.dart';
 import 'package:uuid/uuid.dart';
 
 import 'package:proj/blocs/app_blocs.dart';
