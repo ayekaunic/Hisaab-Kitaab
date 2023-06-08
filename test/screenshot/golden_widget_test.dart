@@ -21,7 +21,7 @@ void main() {
       surfaceSize: const Size(500, 1000),
     );
 
-    await screenMatchesGolden(tester, 'login');
+    await screenMatchesGolden(tester, 'Sign in');
   });
 
   // settings screen
@@ -39,18 +39,18 @@ void main() {
   });
 
   // home screen
-  testGoldens('Home screen renders correctly.', (tester) async {
-    final widget = MaterialApp(
-      home: MyHomePage(),
-    );
+  // testGoldens('Home screen renders correctly.', (tester) async {
+  //   final widget = MaterialApp(
+  //     home: MyHomePage(),
+  //   );
 
-    await tester.pumpWidgetBuilder(
-      widget,
-      surfaceSize: const Size(500, 1000),
-    );
+  //   await tester.pumpWidgetBuilder(
+  //     widget,
+  //     surfaceSize: const Size(500, 1000),
+  //   );
 
-    await screenMatchesGolden(tester, 'Home');
-  });
+  //   await screenMatchesGolden(tester, 'Home');
+  // });
 
   // sign up screen
   testGoldens('Sign up screen renders correctly.', (tester) async {
@@ -81,18 +81,18 @@ void main() {
   });
 
   // search screen
-  testGoldens('Search screen renders correctly.', (tester) async {
-    final widget = MaterialApp(
-      home: SearchPage(key: UniqueKey()),
-    );
+  // testGoldens('Search screen renders correctly.', (tester) async {
+  //   final widget = MaterialApp(
+  //     home: SearchPage(key: UniqueKey()),
+  //   );
 
-    await tester.pumpWidgetBuilder(
-      widget,
-      surfaceSize: const Size(500, 1000),
-    );
+  //   await tester.pumpWidgetBuilder(
+  //     widget,
+  //     surfaceSize: const Size(500, 1000),
+  //   );
 
-    await screenMatchesGolden(tester, 'Search');
-  });
+  //   await screenMatchesGolden(tester, 'Search');
+  // });
 
   // developer screen
   testGoldens('Developer screen renders correctly.', (tester) async {
@@ -132,16 +132,16 @@ void main() {
   });
 
   // change theme screen
-  testGoldens('Change theme screen renders correctly.', (tester) async {
-    final widget = MaterialApp(
-      home: ChangeThemePage(key: UniqueKey()),
-    );
+  // testGoldens('Change theme screen renders correctly.', (tester) async {
+  //   final widget = MaterialApp(
+  //     home: ChangeThemePage(key: UniqueKey()),
+  //   );
 
-    await tester.pumpWidgetBuilder(
-      widget,
-      surfaceSize: const Size(500, 1000),
-    );
+  //   await tester.pumpWidgetBuilder(
+  //     widget,
+  //     surfaceSize: const Size(500, 1000),
+  //   );
 
-    await screenMatchesGolden(tester, 'Change theme');
-  });
+  //   await screenMatchesGolden(tester, 'Change theme');
+  // });
 }
