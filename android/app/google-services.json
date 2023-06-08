@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814860617996",
+    "project_id": "hisaab-kitaab-b4049",
+    "storage_bucket": "hisaab-kitaab-b4049.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814860617996:android:cfc0b6e5dca7c4d57fe129",
+        "android_client_info": {
+          "package_name": "com.example.proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814860617996-bilcrkt2e66q1bpo0nd5ep9pk8a0oufo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJazzckO19JI5vOYIkBWNSvCHcUaU6pP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814860617996-bilcrkt2e66q1bpo0nd5ep9pk8a0oufo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
