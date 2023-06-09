@@ -1,3 +1,2 @@
 # Hisaab Kitaab
-
-Semester project for "Mobile App Dev with Flutter" course.
+An expense-tracking mobile app.
